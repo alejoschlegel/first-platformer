@@ -2,6 +2,27 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
+# commit structure
+
+```console
+- <type>[optional scope]: <description>
+
+- [optional body]
+
+- [optional footer(s)]
+
+
+TYPES: {
+    fix: 'bug fix',
+    feat: 'new feature',
+    build: 'build system changes',
+    docs: 'documentation only change',
+    style: 'changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)',
+    test: 'adding missing tests or correcting existing tests',
+}
+```
+---
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
